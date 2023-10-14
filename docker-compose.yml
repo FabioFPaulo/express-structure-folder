@@ -1,0 +1,8 @@
+name: "express-structure-folder"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.development
+    volumes:
+      - ./:/api
